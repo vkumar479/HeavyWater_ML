@@ -1,0 +1,19 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Heavywater Machine Learning </title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home.css')}}">
+  </head>
+  <body>
+    <h1>HeavyWater Machine Learning Project</h1>
+    <p>Enter Words which want to classify:</p>
+    <form method="POST" action="/words" enctype="text/html">
+      <div class="ui input">
+        <input type="text" name="content" placeholder="Document Words ">
+      </div>
+      <br>
+      <input type="submit" value="submit">
+    </form>
+  </body>
+</html>
