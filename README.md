@@ -23,7 +23,7 @@ In the given dataset as the label is being already provided we will focus on the
 3. Model Training - Train the model on labelled dataset.
 
 #### Step 1: Dataset Preparation
- There're 62204 documents in total and their distribution is shown below:
+ There're 62204 documents in total. 
 
 
 Then we need to split our dataset for training and testing. The training part is used to train our model to make correct classification. And the testing part is used to validate the model's correctness. 
