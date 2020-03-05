@@ -14,7 +14,7 @@ def index():
     return flask.render_template('index.html')
     
 # Result page, get prediction result and render
-@application.route('/words', methods=['GET', 'POST'])
+@application.route('/words', methods=['POST'])
 # Handle request
 def form():
     # Document content was sent with POST request
