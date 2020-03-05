@@ -93,7 +93,7 @@ Deployed the Model on AWS Elastic Beanstalk as it automatically handles the depl
 **Flask** is a framework for small scale Python web development. We use flask as because it can bind with the HTML and can provide the experience for the browser. Two HTML files have been atached to the project one for the input and the other for the output part. To support these HTML pages 2 CSS templates have also been provided. 
 
 
-Now, you are free to open the web and enter the document content you want to classify on
+AWS Link to test the classification Model
 ```
 http://heavywater.us-east-2.elasticbeanstalk.com/
 ```
